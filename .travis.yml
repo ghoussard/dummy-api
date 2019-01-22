@@ -1,4 +1,6 @@
 language: php
+php:
+  - 7.3.0
 install:
   - composer install
   - ./bin/phpunit install
